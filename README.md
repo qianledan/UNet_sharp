@@ -46,5 +46,5 @@ python val.py --name dsb2018_96_UNet_sharp_woDS
 ```
 
 ## Reference
-https://github.com/4uiiurz1/pytorch-nested-unet
-https://github.com/ZJUGiveLab/UNet-Version
+- https://github.com/4uiiurz1/pytorch-nested-unet
+- https://github.com/ZJUGiveLab/UNet-Version
