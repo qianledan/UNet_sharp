@@ -43,8 +43,8 @@ python train.py --dataset dsb2018_96 --arch UNet_sharp
 4. Evaluate. (update soon)
 ```sh
 python val.py --name dsb2018_96_UNet_sharp_woDS
+```
 
-
-## reference
+## Reference
 https://github.com/4uiiurz1/pytorch-nested-unet
 https://github.com/ZJUGiveLab/UNet-Version
