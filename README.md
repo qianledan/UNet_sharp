@@ -1,25 +1,18 @@
-# PyTorch implementation of UNet# (UNet_sharp)
+# PyTorch implementation of UNet# (UNet_sharp) 
 
-This repository contains code for a image segmentation model based on [Multi-scale context UNet-like network with redesigned skip connections for medical image segmentation] implemented in PyTorch.
-
-[**NEW**] Add support for multi-class segmentation dataset.
-
-[**NEW**] Add support for PyTorch 1.x.
+This repository contains code for a image segmentation model based on [Multi-scale context UNet-like network with redesigned skip connections for medical image segmentation] implemented in PyTorch. （Continuously updated in the future）
 
 ## Requirements
-- PyTorch 1.x
+- pytorch1.7
+- torchio<=0.18.20
+- python>=3.6
 
 ## Installation
-1. Create an anaconda environment.
-```sh
-conda create -n=<env_name> python=3.6 anaconda
-conda activate <env_name>
-```
-2. Install PyTorch.
+1. Install PyTorch.
 ```sh
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 ```
-3. Install pip packages.
+2. Install pip packages.
 ```sh
 pip install -r requirements.txt
 ```
@@ -39,14 +32,19 @@ inputs
     |
     ...
 ```
-2. Preprocess.
+2. Preprocess. (update soon)
 ```sh
 python preprocess_dsb2018.py
 ```
-3. Train the model.
+3. Train the model. (update soon)
 ```sh
 python train.py --dataset dsb2018_96 --arch UNet_sharp
 ```
-4. Evaluate.
+4. Evaluate. (update soon)
 ```sh
 python val.py --name dsb2018_96_UNet_sharp_woDS
+
+
+## reference
+https://github.com/4uiiurz1/pytorch-nested-unet
+https://github.com/ZJUGiveLab/UNet-Version
